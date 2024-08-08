@@ -27,6 +27,6 @@ jobs:
         with:
           name: hello-artifact
           path: ./artifacts
-      - name: Cat Artifacts
+      - name: Cat Artifacts #Updatr
         run: |
           cat ./artifacts/hello.txt
